@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="container">
+        <h1>MY PLANS</h1>
+
+        <!-- Форма для додавання нових нотаток -->
+        <form id="noteForm">
+            <textarea id="noteInput" placeholder="..." required></textarea>
+            <button type="submit">+</button>
+        </form>
+
+        <!-- Кнопка для згортання/розгортання виконаних нотаток -->
+        <button id="toggleCompleted">Hide done</i></button>
+        
+        <!-- Список нотаток -->
+        <ul id="noteList">
+            <!-- Сюди будуть додаватися нотатки -->
+        </ul>
+
+        
+    </div>
+
+    <script src="script.js"></script> <!-- Підключення JavaScript -->
+</body>
+</html>
