@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     const noteForm = document.getElementById('noteForm');
     const noteInput = document.getElementById('noteInput');
     const noteList = document.getElementById('noteList');
